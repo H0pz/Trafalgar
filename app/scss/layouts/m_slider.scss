@@ -1,0 +1,64 @@
+@import "../base/_variables";
+
+@media screen and (max-width: 480px) {
+  
+  .slider-section {
+    margin-bottom: 40px;
+  }
+  .slider {
+
+    .slider_item {
+      padding: 20px 15px;
+
+      .slider_item_title {
+        font-size: $h2-mobile-font-size;
+        margin-bottom: 35px;
+
+        &:after {
+          content: '';
+          visibility: hidden;
+          opacity: 0;
+          top: 50px;
+        }
+      }
+
+      .person_container {
+
+        .person_quote {
+          display: block;
+
+          .person_item {
+            margin-bottom: 15px;
+            flex-direction: column;
+
+           &__img {
+            width: 100px;
+            height: 100px; 
+            margin: 0 0 5px 0;
+            }
+
+            .person_item__text {
+              text-align: center;
+              .person_name {
+                font-size: $h3-mobile-font-size;
+              }
+
+              .person_item__vocation {
+                font-size: 14px;
+                margin: 0;
+              }
+            }
+          }
+
+          .quote_item {
+            text-align: center;
+            
+            &__text {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

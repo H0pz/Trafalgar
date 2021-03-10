@@ -1,0 +1,48 @@
+@import "../base/_variables";
+
+.consult {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 120px;
+  
+  
+  &_holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .consult_text {
+    max-width: 445px;
+
+    .consult_title {
+      display: block;
+      font-family: Mulish;
+      font-style: normal;
+      font-weight: bold;
+      font-size: $h1-font-size;
+      line-height: 56px;
+      margin-bottom: 25px;
+    }
+    
+    p {
+      display: block;
+      font-family: Mulish;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 21px;
+      line-height: 1.5;
+      color: #7D7987;
+      mix-blend-mode: normal;
+      margin-bottom: 48px;
+    }
+  }
+  .consult_img {
+    display: block;
+    max-width: 693px;
+    max-height: 598px;
+    
+  }
+
+}

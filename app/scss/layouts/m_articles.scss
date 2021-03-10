@@ -1,0 +1,39 @@
+@import "../base/_variables";
+
+@media screen and (max-width: 480px) {
+  .articles {
+    margin-bottom: 40px;
+
+    .articles_title {
+      font-size: $h2-mobile-font-size;
+      margin-bottom: 30px;
+
+      &:after {
+        content: '';
+        top: 60px;
+      }
+    }
+
+    .articles_card {
+      display: block;
+      padding: 15px;
+      margin-bottom: 20px;
+
+      .articles_card__item {
+        margin-bottom: 20px;
+
+        .articles_card__desc {
+          text-align: center;
+          
+          h3 {
+            font-size: $h3-mobile-font-size;
+          }
+          
+          p {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

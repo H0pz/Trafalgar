@@ -1,0 +1,52 @@
+@import "../base/_variables"; 
+
+@media screen and (max-width: 480px) {
+
+  .footer {
+    padding: 15px 0 15px 0;
+
+    .footer_main {
+      display: block;
+    
+      .m_company_info {
+        display: block;
+        visibility: visible;
+        font-size: 11px;
+        text-align: center;
+        color: #fff;
+      }
+
+      .footer_item {
+        text-align: center;
+        padding: 5px 10px;
+        margin-bottom: 10px;
+        
+        .footer_item__title {
+          font-size: $h6-mobile-font-size;
+        }
+
+        .footer_list__text {
+          font-size: 14px;
+        }
+      }
+
+      .footer_item__info {
+        text-align: center;
+        margin-bottom: 15px;
+
+        .logo {
+          margin: 0 auto 10px;
+        }
+
+        .logo_description {
+          font-size: 14px;
+          margin: 0;
+        }
+        .company_info {
+          display: none;
+          visibility: hidden;
+        }
+      }
+    }
+  }
+}
